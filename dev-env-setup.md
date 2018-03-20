@@ -67,6 +67,6 @@ There are several options for us to achieve this:
       
       - Visit `http://localhost:8888/mywebapp` and 
       
-      you should see `Welcome to my PHP App!` printed on the browser.
+        you should see `Welcome to my PHP App!` printed on the browser.
       
-      - You are set - See you in class!
+      - You are set, see you in class!
