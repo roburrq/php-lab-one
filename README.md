@@ -4,7 +4,7 @@ The purpose of this guide is to setup the local development environment for our 
 
 To be able run our server side applications (`PHP` as the server side language and `MySQL` as the database), we need a local [Web Server](https://en.wikipedia.org/wiki/Web_server) to run our PHP applications.
 
-We have several options to achieve this:
+There are several options for us to achieve this:
 
 #### Local dev
 
