@@ -8,15 +8,56 @@ There are several options for us to achieve this:
 
 #### Local dev
 
-* [PHP Built-in web server ](http://php.net/manual/en/features.commandline.webserver.php)
+1. [PHP Built-in web server ](http://php.net/manual/en/features.commandline.webserver.php)
 
-        - To run the built-in web server run `php -S localhost:8000` from the root of your application `public folder` or `php -S localhost:8000 -t `/full/path/to/application/public/folder`
+        - To run the built-in web server run `php -S localhost:8000`
+        
+          from the root of your application `public folder`
+        
+        - or `php -S localhost:8000 -t `/full/path/to/webapp/public/folder`
 
-* [Download MAMP](https://www.mamp.info/en/downloads/) - It works on both Windows and Mac operating systems.
+2. [Download MAMP](https://www.mamp.info/en/downloads/) (Recommended) - It works on both Windows and Mac operating systems and 
+        
+   comes installed with MySQL, PhpMyAdmin.
+   
+   *NOTE:* You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows](http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
+
+   Step 1 - Install the downloaded MAMP
+        
+   Step 2 - Launch MAMP and `Start Servers`, you should see Apache and MySQL Servers running as seen below
+        
+   ![Alt text](https://github.com/Sunnepah/php-lab-one/blob/master/mamp_gui_on.png "Servers on")
+      
+   Step 3 - Click `Open WebStart page` to open the start page of your local web server.
+      
+   Step 4 - Visit http://localhost:8888/MAMP/index.php?page=phpinfo&language=English and you should see `phpinfo` page
+        
+   Step 5 - Visit http://localhost:8888/MAMP/index.php?page=phpmyadmin&language=English to see `phpmyadmin`
+                
+      from there you can manage your MySQL databases
+               
+   Step 6 - Visit http://localhost:8888/ - you should see `Index of /` of course it's empty because we don't have any      
+                
+      site yet.
+                
+   Step 7 - Now we can add our first web app powered by PHP.
+        
+      - On Mac the web server is serving sites from the directory - `/Applications/MAMP/htdocs/`
+
+      - Go ahead and create your new application directory `/Applications/MAMP/htdocs/mywebapp`
+
+      - Create a PHP file inside the created directory `/Applications/MAMP/htdocs/mywebapp/index.php`
+
+      - Put the code below inside your `index.php`
+
+      ```php
+            <?php
+               echo "Welcome you my PHP App"; // You can put anything message inside the quote
+      ```
 
 
 #### Production
 
-* [Nginx](https://nginx.org/en/)
+1. [Nginx](https://nginx.org/en/)
 
-* [Apache HTTP Server](https://httpd.apache.org/)
+2. [Apache HTTP Server](https://httpd.apache.org/)
