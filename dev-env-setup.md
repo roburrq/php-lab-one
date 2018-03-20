@@ -42,7 +42,9 @@ There are several options for us to achieve this:
                 
    Step 7 - Now we can add our first web app powered by PHP.
         
-      - On Mac, the web server is serving sites from the directory - `/Applications/MAMP/htdocs/`
+      - On Mac, the web server is serving sites from the directory - `/Applications/MAMP/htdocs/`,
+       
+        for Windows the location is `C:\MAMP\htdocs\`
 
       - Go ahead and create your new application directory `/Applications/MAMP/htdocs/mywebapp`
 
