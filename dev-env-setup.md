@@ -47,12 +47,8 @@ There are several options for us to achieve this:
    Step 5 - Visit http://localhost:8888/MAMP/index.php?page=phpmyadmin&language=English to see `phpmyadmin`
                 
       from there you can manage your MySQL databases
-               
-   Step 6 - Visit http://localhost:8888/ - you should see `Index of /` - of course it's empty because we don't have 
-   
-      any site yet
                 
-   Step 7 - Now we can add our first web app powered by PHP.
+   Step 6 - Now we can add our first web app powered by PHP.
         
       - On Mac, the web server is serving sites from the directory - `/Applications/MAMP/htdocs/`,
        
