@@ -16,11 +16,11 @@ There are several options for us to achieve this:
         
         - or `php -S localhost:8000 -t `/full/path/to/webapp/public/folder`
 
-2. [Download MAMP](https://www.mamp.info/en/downloads/) (Recommended) - It works on both Windows and Mac operating systems and 
+2. [Download MAMP](https://www.mamp.info/en/downloads/) (__**Recommended**__) - It works on both Windows and Mac operating systems and 
         
-   and once installed you will have PHP, MySQL and PhpMyAdmin ready on your machine.
+   and once installed you will have **PHP**, **MySQL** and **PhpMyAdmin** ready on your machine.
    
-   *NOTE:* You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows](http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
+   __**NOTE:**__ You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows](http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
 
    Step 1 - Install the downloaded MAMP
         
@@ -28,15 +28,15 @@ There are several options for us to achieve this:
         
    ![Alt text](./mamp_gui_on.png "Servers on")
    
-   *Note to Windows users*
+   __**Note to Windows users**__
    
-    - When you click `Start Servers` you may get a prompt that `port 80` is already in use,
+    - When you click `Start Servers` you may get a prompt that **port 80 is already in use**,
 
       if that happens click on `use next free port`, it will display the next port to use `e.g port 81`.
       
-      If you didn't get any prompt as described above, your port is `80`.
+      If you didn't get any prompt as described above, your port is **80**.
       
-    - In any case, take note of the port and anywhere you see `8888` in the rest of this guide replace it with your own port 
+    - In any case, take note of the port and anywhere you see **8888** in the rest of this guide replace it with your own port 
     
       as seen above.
       
