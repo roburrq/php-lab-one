@@ -26,7 +26,7 @@ There are several options for us to achieve this:
         
    Step 2 - Launch MAMP and click `Start Servers`, you should see Apache and MySQL Servers running as seen below
         
-   ![Alt text](https://github.com/Sunnepah/php-lab-one/blob/master/mamp_gui_on.png "Servers on")
+   ![Alt text](./mamp_gui_on.png "Servers on")
       
    Step 3 - Click `Open WebStart page` to open the start page of your local web server.
       
