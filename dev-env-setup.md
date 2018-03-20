@@ -10,7 +10,7 @@ There are several options for us to achieve this:
 
 1. [PHP Built-in web server ](http://php.net/manual/en/features.commandline.webserver.php)
 
-        - To run the built-in web server run `php -S localhost:8000`
+        - To run the built-in web server use `php -S localhost:8000`
         
           from the root of your application `public folder`
         
@@ -18,13 +18,13 @@ There are several options for us to achieve this:
 
 2. [Download MAMP](https://www.mamp.info/en/downloads/) (Recommended) - It works on both Windows and Mac operating systems and 
         
-   comes installed with MySQL, PhpMyAdmin.
+   and once installed you will have PHP, MySQL and PhpMyAdmin ready on your machine.
    
    *NOTE:* You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows](http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
 
    Step 1 - Install the downloaded MAMP
         
-   Step 2 - Launch MAMP and `Start Servers`, you should see Apache and MySQL Servers running as seen below
+   Step 2 - Launch MAMP and click `Start Servers`, you should see Apache and MySQL Servers running as seen below
         
    ![Alt text](https://github.com/Sunnepah/php-lab-one/blob/master/mamp_gui_on.png "Servers on")
       
@@ -36,13 +36,13 @@ There are several options for us to achieve this:
                 
       from there you can manage your MySQL databases
                
-   Step 6 - Visit http://localhost:8888/ - you should see `Index of /` of course it's empty because we don't have any      
+   Step 6 - Visit http://localhost:8888/ - you should see `Index of /`, of course it's empty because we don't have any      
                 
       site yet.
                 
    Step 7 - Now we can add our first web app powered by PHP.
         
-      - On Mac the web server is serving sites from the directory - `/Applications/MAMP/htdocs/`
+      - On Mac, the web server is serving sites from the directory - `/Applications/MAMP/htdocs/`
 
       - Go ahead and create your new application directory `/Applications/MAMP/htdocs/mywebapp`
 
@@ -52,11 +52,17 @@ There are several options for us to achieve this:
 
       ```php
             <?php
-               echo "Welcome you my PHP App"; // You can put anything message inside the quote
+               echo "Welcome you my PHP App!"; // You can put anything message inside the quote
       ```
+      
+      - Visit `http://localhost:8888/mywebapp` and you should see `Welcome you my PHP App` printed on the browser.
+      
+      - You are set - See you in class.
 
 
 #### Production
+
+For production deployment, we can use any of the web servers below:
 
 1. [Nginx](https://nginx.org/en/)
 
