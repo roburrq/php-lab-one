@@ -69,13 +69,4 @@ There are several options for us to achieve this:
       
       you should see `Welcome to my PHP App!` printed on the browser.
       
-      - You are set - See you in class.
-
-
-#### Production
-
-For production deployment, we can use any of the web servers below:
-
-1. [Nginx](https://nginx.org/en/)
-
-2. [Apache HTTP Server](https://httpd.apache.org/)
+      - You are set - See you in class!
