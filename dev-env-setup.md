@@ -8,7 +8,7 @@ There are several options for us to achieve this, but for this course we will us
 
 1. [PHP Built-in web server ](http://php.net/manual/en/features.commandline.webserver.php)
 
-      - To run the built-in web server use `php -S localhost:8000`
+      - To use the built-in web server use command `php -S localhost:8000`
         
         from the root of your application `public folder`
         
