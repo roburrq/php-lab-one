@@ -8,11 +8,11 @@ There are several options for us to achieve this, but for this course we will us
 
 1. [PHP Built-in web server ](http://php.net/manual/en/features.commandline.webserver.php)
 
-        - To run the built-in web server use `php -S localhost:8000`
+      - To run the built-in web server use `php -S localhost:8000`
         
-          from the root of your application `public folder`
+        from the root of your application `public folder`
         
-        - or `php -S localhost:8000 -t `/full/path/to/webapp/public/folder`
+      - or `php -S localhost:8000 -t `/full/path/to/webapp/public/folder`
 
 2. [Download MAMP](https://www.mamp.info/en/downloads/) (__**Recommended**__) - It works on both Windows and Mac operating systems.
 
