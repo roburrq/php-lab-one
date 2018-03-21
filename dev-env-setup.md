@@ -4,9 +4,7 @@ The purpose of this guide is to setup the local development environment for our 
 
 To be able run our server side applications (`PHP` as the server side language and `MySQL` as the database), we need a local [Web Server](https://en.wikipedia.org/wiki/Web_server) to run our PHP applications.
 
-There are several options for us to achieve this:
-
-#### Local dev
+There are several options for us to achieve this, but for this course we will use the option **2** below
 
 1. [PHP Built-in web server ](http://php.net/manual/en/features.commandline.webserver.php)
 
@@ -16,9 +14,9 @@ There are several options for us to achieve this:
         
         - or `php -S localhost:8000 -t `/full/path/to/webapp/public/folder`
 
-2. [Download MAMP](https://www.mamp.info/en/downloads/) (__**Recommended**__) - It works on both Windows and Mac operating systems and 
-        
-   and once installed you will have **PHP**, **MySQL** and **PhpMyAdmin** ready on your machine.
+2. [Download MAMP](https://www.mamp.info/en/downloads/) (__**Recommended**__) - It works on both Windows and Mac operating systems.
+
+Once installed you will have **PHP**, **MySQL** and **PhpMyAdmin** ready for use on your machine.
    
    __**NOTE:**__ You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows](http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
 
