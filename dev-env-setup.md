@@ -14,11 +14,11 @@ There are several options for us to achieve this, but for this course we will us
         
       - or `php -S localhost:8000 -t `/full/path/to/webapp/public/folder`
 
-2. [Download MAMP](https://www.mamp.info/en/downloads/) (__**Recommended**__) - It works on both Windows and Mac operating systems.
+2. [Download MAMP](https://www.mamp.info/en/downloads/) (__**Recommended**__) - It works on both Windows and Mac operating systems. On Linux add AMP [Apache+MySQL+PHP](https://help.ubuntu.com/community/ApacheMySQLPHP)
 
    Once installed you will have **PHP**, **MySQL** and **PhpMyAdmin** ready for use on your machine.
    
-   __**NOTE:**__ You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows]   (http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
+   __**NOTE:**__ You can go to [MAMP for Mac](http://documentation.mamp.info/en/MAMP-Mac/) or [MAMP for Windows](http://documentation.mamp.info/en/MAMP-Windows/) for full documentation.
 
    Step 1 - Install the downloaded MAMP
         
