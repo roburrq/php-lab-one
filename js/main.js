@@ -3,7 +3,7 @@ $(function () {
         e.preventDefault();
         $.ajax({
             type: 'POST',
-            url: '/mywebapp/indexHandler.php',
+            url: '/mywebapp/registerHandler.php',
             data: $('form').serialize(),
             success: function (response) {
                 console.log(response);
